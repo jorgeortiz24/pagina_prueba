@@ -1,0 +1,120 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    background-image: url("imagen/nvlocal.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0px;
+}
+.imagen{
+    width: 320px;
+    height: 400px;
+    background: #3b0a8a;
+    color: #fff;
+    top: 55%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 50px 40px;
+}
+.imagen .avatar{
+    width: 280px;
+    height: 100px; 
+    position:absolute;
+    top: -50px;
+    left: calc(22% - 50px);
+    
+}
+.imagen h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.imagen label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+.imagen input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.imagen input[type="text"],
+.imagen input[type="password"]{
+    border: none;
+    border-bottom: 1px solid rgb(220, 240, 43);
+    background: transparent;
+    outline: none;
+    height: 50px;
+    color: #f3ebeb;
+    font-size: 16px;
+}
+.imagen input[type="button"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #04083d;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 20px;
+}
+.imagen input:hover[type="button"]{
+    color: aqua;
+
+}
+.imagen a{
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+    font-size: 18px;
+    line-height: 20px;
+    color: rgb(74, 206, 14);
+}
+
+.imagen a:hover{
+   color: rgb(245, 239, 239);  
+}
+
+header {
+    background-color: #4952ad;
+    color: #fff;
+    padding: 30px;
+    position: absolute;
+    text-align: center;
+    width: 97%;
+}
+
+h1 {
+    margin: 0;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #2c38be;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 99.0%;
+}
