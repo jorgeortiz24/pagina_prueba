@@ -15,6 +15,7 @@ body {
 .imagen{
     width: 320px;
     height: 400px;
+    border-radius: 20px;
     background: #3b0a8a;
     color: #fff;
     top: 55%;
@@ -22,11 +23,12 @@ body {
     position: absolute;
     transform: translate(-50%, -50%);
     box-sizing: border-box;
-    padding: 50px 40px;
+    padding: 50px;
 }
 .imagen .avatar{
     width: 280px;
     height: 100px; 
+    border-radius: 18px;
     position:absolute;
     top: -50px;
     left: calc(22% - 50px);
@@ -45,10 +47,12 @@ body {
     font-weight: bold;
     display: block;
 }
+
 .imagen input{
     width: 100%;
     margin-bottom: 20px;
 }
+
 .imagen input[type="text"],
 .imagen input[type="password"]{
     border: none;
@@ -62,10 +66,10 @@ body {
 .imagen input[type="button"]{
     border: none;
     outline: none;
-    height: 40px;
+    height: 45px;
     background: #04083d;
     color: #fff;
-    font-size: 12px;
+    font-size: 20px;
     border-radius: 20px;
 }
 .imagen input:hover[type="button"]{
@@ -76,13 +80,19 @@ body {
     text-align: center;
     text-decoration: none;
     margin: auto;
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 19px;
+    line-height: 40px;
     color: rgb(74, 206, 14);
 }
 
 .imagen a:hover{
    color: rgb(245, 239, 239);  
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    
 }
 
 header {
@@ -97,12 +107,6 @@ header {
 h1 {
     margin: 0;
     justify-content: center;
-}
-
-nav a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
 }
 
 main {
